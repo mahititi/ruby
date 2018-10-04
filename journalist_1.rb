@@ -6,4 +6,4 @@ puts list_journalist.grep(/aude/i).count
 puts list_journalist.grep(/[A-Z]/).count
 puts list_journalist.grep(/@[A-Z]/).count
 puts list_journalist.grep(/_/).count
-puts puts list_journalist.grep(/[A-Z]/).sort
+puts list_journalist.grep(/[A-Z]/).sort
